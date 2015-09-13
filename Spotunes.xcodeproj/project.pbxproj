@@ -56,9 +56,89 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		08886CB51BA6000C006EA149 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		08886CB61BA6001A006EA149 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				08886CBE1BA600D8006EA149 /* NIBs */,
+				08886CBD1BA600C8006EA149 /* Sounds */,
+				08886CBC1BA600C1006EA149 /* Images */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		08886CB71BA60029006EA149 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				08886CB81BA6005D006EA149 /* AppDelegate */,
+				08886CB91BA60069006EA149 /* Controllers */,
+				08886CBB1BA6008A006EA149 /* Models */,
+				08886CBA1BA60083006EA149 /* Helpers */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		08886CB81BA6005D006EA149 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = AppDelegate;
+			sourceTree = "<group>";
+		};
+		08886CB91BA60069006EA149 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		08886CBA1BA60083006EA149 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+		08886CBB1BA6008A006EA149 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		08886CBC1BA600C1006EA149 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		08886CBD1BA600C8006EA149 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Sounds;
+			sourceTree = "<group>";
+		};
+		08886CBE1BA600D8006EA149 /* NIBs */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = NIBs;
+			sourceTree = "<group>";
+		};
 		08F88E7C1BA5E4FE004DD9C4 = {
 			isa = PBXGroup;
 			children = (
+				08886CB71BA60029006EA149 /* Classes */,
+				08886CB61BA6001A006EA149 /* Resources */,
+				08886CB51BA6000C006EA149 /* Frameworks */,
 				08F88E871BA5E4FE004DD9C4 /* Spotunes */,
 				08F88E9D1BA5E4FE004DD9C4 /* SpotunesTests */,
 				08F88E861BA5E4FE004DD9C4 /* Products */,
@@ -411,6 +491,7 @@
 				08F88EA61BA5E4FE004DD9C4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		08F88EA71BA5E4FE004DD9C4 /* Build configuration list for PBXNativeTarget "SpotunesTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +500,7 @@
 				08F88EA91BA5E4FE004DD9C4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
